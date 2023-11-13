@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tk.jacobempire.chameleonaddon.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "chameleonaddon.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
