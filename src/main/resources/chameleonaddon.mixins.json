@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "chameleonaddon.refmap.json",
   "mixins": [
+    "TardisTileEntityMixin"
   ],
   "client": [
   ],
