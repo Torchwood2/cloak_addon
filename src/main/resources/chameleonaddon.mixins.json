@@ -9,6 +9,7 @@
     "TardisStateMixin"
   ],
   "client": [
+    "RenderBlockTardisMixin"
   ],
   "injectors": {
     "defaultRequire": 1
