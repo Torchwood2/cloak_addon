@@ -6,7 +6,6 @@
   "refmap": "chameleonaddon.refmap.json",
   "mixins": [
     "TardisTileEntityMixin",
-    "TardisStateMixin"
   ],
   "client": [
     "RenderBlockTardisMixin"
