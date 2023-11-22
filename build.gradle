@@ -50,13 +50,13 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
-            arg "-mixin.config=chameleonaddon.mixins.json"
+            arg "-mixin.config=cloak.mixins.json"
             property 'mixin.env.remapRefMap', 'true'
             property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
 
 
             mods {
-                chameleonaddon {
+                cloak {
                     source sourceSets.main
                 }
             }
@@ -71,7 +71,7 @@ minecraft {
 
 
             mods {
-                chameleonaddon {
+                cloak {
                     source sourceSets.main
                 }
             }

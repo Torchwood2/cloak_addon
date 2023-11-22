@@ -1,4 +1,4 @@
-package tk.jacobempire.chameleonaddon.data;
+package tk.jacobempire.cloakpaneladdon.data;
 
 public interface ITardisTileEntityMixin {
     boolean invisible = false;

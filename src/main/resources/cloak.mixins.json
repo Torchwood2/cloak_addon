@@ -1,9 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "tk.jacobempire.chameleonaddon.mixin",
+  "package": "tk.jacobempire.cloakpaneladdon.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "chameleonaddon.refmap.json",
+  "refmap": "cloakpaneladdon.refmap.json",
   "mixins": [
     "TardisTileEntityMixin"
   ],

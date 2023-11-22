@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chameleonaddon.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chameleonaddon.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chameleonaddon.test.iml" filepath="$PROJECT_DIR$/.idea/modules/chameleonaddon.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloak.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloak.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloak.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloak.test.iml" />
     </modules>
   </component>
 </project>

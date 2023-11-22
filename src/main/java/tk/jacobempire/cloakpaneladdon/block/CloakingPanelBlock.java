@@ -1,4 +1,4 @@
-package tk.jacobempire.chameleonaddon.block;
+package tk.jacobempire.cloakpaneladdon.block;
 
 import com.swdteam.common.block.AbstractRotateableWaterLoggableBlock;
 import com.swdteam.common.init.DMFlightMode;
@@ -16,7 +16,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
-import tk.jacobempire.chameleonaddon.data.ITardisTileEntityMixin;
+import tk.jacobempire.cloakpaneladdon.data.ITardisTileEntityMixin;
 
 public class CloakingPanelBlock extends AbstractRotateableWaterLoggableBlock {
     public CloakingPanelBlock(Properties properties) {

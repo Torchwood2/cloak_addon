@@ -1,4 +1,4 @@
-package tk.jacobempire.chameleonaddon.init;
+package tk.jacobempire.cloakpaneladdon.init;
 
 import com.swdteam.common.item.BaseBlockItem;
 import net.minecraft.block.AbstractBlock;
@@ -11,11 +11,11 @@ import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import tk.jacobempire.chameleonaddon.block.CloakingPanelBlock;
+import tk.jacobempire.cloakpaneladdon.block.CloakingPanelBlock;
 
 import java.util.function.Supplier;
 
-import static tk.jacobempire.chameleonaddon.Chameleonaddon.MODID;
+import static tk.jacobempire.cloakpaneladdon.CloakPanelAddon.MODID;
 
 public class Blocks {
     public static DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);

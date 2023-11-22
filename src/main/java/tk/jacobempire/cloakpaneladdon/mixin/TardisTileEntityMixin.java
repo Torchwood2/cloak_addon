@@ -1,4 +1,4 @@
-package tk.jacobempire.chameleonaddon.mixin;
+package tk.jacobempire.cloakpaneladdon.mixin;
 
 import com.swdteam.common.tileentity.ExtraRotationTileEntityBase;
 import com.swdteam.common.tileentity.TardisTileEntity;
@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import tk.jacobempire.chameleonaddon.data.ITardisTileEntityMixin;
+import tk.jacobempire.cloakpaneladdon.data.ITardisTileEntityMixin;
 
 @Mixin(TardisTileEntity.class)
 public abstract class TardisTileEntityMixin extends ExtraRotationTileEntityBase implements ITickableTileEntity, ITardisTileEntityMixin {

@@ -1,4 +1,4 @@
-package tk.jacobempire.chameleonaddon.mixin;
+package tk.jacobempire.cloakpaneladdon.mixin;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.swdteam.client.render.tileentity.RenderBlockTardis;
@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import tk.jacobempire.chameleonaddon.data.ITardisTileEntityMixin;
+import tk.jacobempire.cloakpaneladdon.data.ITardisTileEntityMixin;
 
 @Mixin(RenderBlockTardis.class)
 public class RenderBlockTardisMixin {

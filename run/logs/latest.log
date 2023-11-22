@@ -1,315 +1,465 @@
-[22Nov2023 00:32:37.313] [main/INFO] [net.minecraftforge.userdev.ArgumentList/]: Duplicate entries for mixin.config Unindexable
-[22Nov2023 00:32:37.338] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [-mixin.config=chameleonaddon.mixins.json, --mixin.config, chameleonaddon.mixins.json, --gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.39, --assetIndex, 1.16, --assetsDir, C:\Users\jacob\.gradle\caches\forge_gradle\assets, --version, MOD_DEV, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[22Nov2023 00:32:37.340] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_312 by Temurin
-[22Nov2023 00:32:38.291] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[22Nov2023 00:32:38.363] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/jacob/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
-[22Nov2023 00:32:40.414] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 13:73 token recognition error at: ';'
-[22Nov2023 00:32:41.048] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\jacob\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[22Nov2023 00:32:41.148] [main/WARN] [mixin/]: Reference map 'chameleonaddon.refmap.json' for chameleonaddon.mixins.json could not be read. If this is a development environment you can ignore this message
-[22Nov2023 00:32:41.357] [main/INFO] [mixin/]: Remapping refMap mixins.dalekmod.refmap.json using D:\mod workspaces\chamelonaddon_invisibility\build/createSrgToMcp/output.srg
-[22Nov2023 00:32:49.770] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22Nov2023 00:32:50.313] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[22Nov2023 00:32:50.487] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[22Nov2023 00:32:51.305] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
-[22Nov2023 00:32:51.310] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
-[22Nov2023 00:32:52.770] [Render thread/INFO] [tk.jacobempire.chameleonaddon.Chameleonaddon/]: HELLO from Register Block
-[22Nov2023 00:32:55.163] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[22Nov2023 00:32:55.242] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[22Nov2023 00:32:55.283] [Worker-Main-10/INFO] [tk.jacobempire.chameleonaddon.Chameleonaddon/]: HELLO FROM PREINIT
-[22Nov2023 00:32:55.284] [Worker-Main-10/INFO] [tk.jacobempire.chameleonaddon.Chameleonaddon/]: DIRT BLOCK >> minecraft:dirt
-[22Nov2023 00:32:55.312] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[22Nov2023 00:32:55.793] [Worker-Main-10/WARN] [net.minecraft.client.audio.SoundHandler/]: File dalekmod:sounds/entity/dalek_imperial_exterminate_1.ogg does not exist, cannot add it to event dalekmod:entity.dalek_imperial_attack
-[22Nov2023 00:32:55.793] [Worker-Main-10/WARN] [net.minecraft.client.audio.SoundHandler/]: File dalekmod:sounds/entity/cyberman_living_6.ogg does not exist, cannot add it to event dalekmod:entity.cyberman_living
-[22Nov2023 00:32:55.812] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.39 Target: null
-[22Nov2023 00:32:55.879] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:auton, use EntityAttributeCreationEvent instead.
-[22Nov2023 00:32:55.880] [Render thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.swdteam.common.entity.AutonEntity from class com.swdteam.common.entity.CybermanEntity
-[22Nov2023 00:32:55.880] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:cyberman, use EntityAttributeCreationEvent instead.
-[22Nov2023 00:32:55.880] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:dalek, use EntityAttributeCreationEvent instead.
-[22Nov2023 00:32:55.881] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:classic_spider, use EntityAttributeCreationEvent instead.
-[22Nov2023 00:32:55.881] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:classic_skeleton, use EntityAttributeCreationEvent instead.
-[22Nov2023 00:32:55.881] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:weeping_angel, use EntityAttributeCreationEvent instead.
-[22Nov2023 00:32:55.881] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:kerblam_man, use EntityAttributeCreationEvent instead.
-[22Nov2023 00:32:55.881] [Render thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.swdteam.common.entity.AutonEntity from class com.swdteam.common.entity.CybervillagerEntity
-[22Nov2023 00:32:55.881] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:cybervillager, use EntityAttributeCreationEvent instead.
-[22Nov2023 00:32:55.882] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:cybermat, use EntityAttributeCreationEvent instead.
-[22Nov2023 00:32:55.882] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:cyberdrone, use EntityAttributeCreationEvent instead.
-[22Nov2023 00:32:55.882] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:ood, use EntityAttributeCreationEvent instead.
-[22Nov2023 00:32:55.915] [Worker-Main-10/INFO] [tk.jacobempire.chameleonaddon.Chameleonaddon/]: Got game settings net.minecraft.client.GameSettings@19702f87
-[22Nov2023 00:32:56.254] [Worker-Main-10/INFO] [com.swdteam.main.DalekMod/]: Registering TileEntity Renders
-[22Nov2023 00:32:56.443] [Worker-Main-10/INFO] [com.swdteam.main.DalekMod/]: Registering Entity Renders
-[22Nov2023 00:33:00.792] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: chameleonaddon:blockstates/cloaking_panel.json: java.io.FileNotFoundException: chameleonaddon:blockstates/cloaking_panel.json
-[22Nov2023 00:33:00.795] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'chameleonaddon:blockstates/cloaking_panel.json' missing model for variant: 'chameleonaddon:cloaking_panel#facing=north,waterlogged=false'
-[22Nov2023 00:33:00.796] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'chameleonaddon:blockstates/cloaking_panel.json' missing model for variant: 'chameleonaddon:cloaking_panel#facing=west,waterlogged=true'
-[22Nov2023 00:33:00.796] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'chameleonaddon:blockstates/cloaking_panel.json' missing model for variant: 'chameleonaddon:cloaking_panel#facing=south,waterlogged=true'
-[22Nov2023 00:33:00.796] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'chameleonaddon:blockstates/cloaking_panel.json' missing model for variant: 'chameleonaddon:cloaking_panel#facing=east,waterlogged=true'
-[22Nov2023 00:33:00.796] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'chameleonaddon:blockstates/cloaking_panel.json' missing model for variant: 'chameleonaddon:cloaking_panel#facing=west,waterlogged=false'
-[22Nov2023 00:33:00.796] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'chameleonaddon:blockstates/cloaking_panel.json' missing model for variant: 'chameleonaddon:cloaking_panel#facing=north,waterlogged=true'
-[22Nov2023 00:33:00.796] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'chameleonaddon:blockstates/cloaking_panel.json' missing model for variant: 'chameleonaddon:cloaking_panel#facing=east,waterlogged=false'
-[22Nov2023 00:33:00.796] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'chameleonaddon:blockstates/cloaking_panel.json' missing model for variant: 'chameleonaddon:cloaking_panel#facing=south,waterlogged=false'
-[22Nov2023 00:33:03.371] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'chameleonaddon:cloaking_panel#inventory' referenced from: chameleonaddon:cloaking_panel#inventory: java.io.FileNotFoundException: chameleonaddon:models/item/cloaking_panel.json
-[22Nov2023 00:33:04.035] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in dalekmod:block/kerblam_computer
-[22Nov2023 00:33:04.035] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in dalekmod:block/data_writer_module
-[22Nov2023 00:33:04.035] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in dalekmod:block/data_writer
-[22Nov2023 00:33:04.035] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in dalekmod:block/data_writer_module_gold
-[22Nov2023 00:33:04.035] [Worker-Main-11/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in dalekmod:item/kerblam_computer
-[22Nov2023 00:33:04.520] [Worker-Main-11/WARN] [net.minecraft.client.renderer.texture.AtlasTexture/]: Texture dalekmod:item/renegade_dalek_spawner with size 16x14 limits mip level from 4 to 1
-[22Nov2023 00:33:05.352] [Worker-Main-8/INFO] [com.swdteam.main.DalekMod/]: Got IMC []
-[22Nov2023 00:33:06.992] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[22Nov2023 00:33:06.993] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[22Nov2023 00:33:07.307] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[22Nov2023 00:33:07.528] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[22Nov2023 00:33:07.530] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[22Nov2023 00:33:07.535] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[22Nov2023 00:33:07.539] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[22Nov2023 00:33:07.541] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[22Nov2023 00:33:07.543] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[22Nov2023 00:33:08.231] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[22Nov2023 00:33:08.238] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[22Nov2023 00:33:08.241] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[22Nov2023 00:33:08.506] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[22Nov2023 00:33:25.545] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22Nov2023 00:33:25.546] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Nov2023 00:33:25.547] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Nov2023 00:33:25.548] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22Nov2023 00:33:25.549] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Nov2023 00:33:25.568] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.39_mapped_official_1.16.5-recomp.jar, main, the-dalek-mod-59654-4706185_mapped_official_1.16.5.jar
-[22Nov2023 00:33:27.512] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 9 recipes
-[22Nov2023 00:33:28.898] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1308 advancements
-[22Nov2023 00:33:28.900] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:copper
-[22Nov2023 00:33:28.901] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:blockstack_default
-[22Nov2023 00:33:28.901] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:booth_default
-[22Nov2023 00:33:28.901] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:template
-[22Nov2023 00:33:28.901] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:classic
-[22Nov2023 00:33:28.901] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:crystaline
-[22Nov2023 00:33:28.901] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:third
-[22Nov2023 00:33:28.901] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:pagoda_default
-[22Nov2023 00:33:28.901] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:tardis_default
-[22Nov2023 00:33:28.902] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:war
-[22Nov2023 00:33:28.902] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:hudolin
-[22Nov2023 00:33:28.902] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:sidrat_default
-[22Nov2023 00:33:28.938] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.kerblam.KerblamItemReloadListener:apply:51]: [com.swdteam.common.kerblam.KerblamItem@1d07d728, com.swdteam.common.kerblam.KerblamItem@6d98e607, com.swdteam.common.kerblam.KerblamItem@71ed3bc8, com.swdteam.common.kerblam.KerblamItem@2c6c6b7b, com.swdteam.common.kerblam.KerblamItem@f714749, com.swdteam.common.kerblam.KerblamItem@25f3207e, com.swdteam.common.kerblam.KerblamItem@3d587c73, com.swdteam.common.kerblam.KerblamItem@7220ff10, com.swdteam.common.kerblam.KerblamItem@776eb512, com.swdteam.common.kerblam.KerblamItem@4ba29b51, com.swdteam.common.kerblam.KerblamItem@35e7cdb2, com.swdteam.common.kerblam.KerblamItem@404a7c61, com.swdteam.common.kerblam.KerblamItem@428e875f, com.swdteam.common.kerblam.KerblamItem@1da9f44c, com.swdteam.common.kerblam.KerblamItem@16a83016, com.swdteam.common.kerblam.KerblamItem@592efd6, com.swdteam.common.kerblam.KerblamItem@33903444, com.swdteam.common.kerblam.KerblamItem@6149adee, com.swdteam.common.kerblam.KerblamItem@36361951, com.swdteam.common.kerblam.KerblamItem@24c8bc1e, com.swdteam.common.kerblam.KerblamItem@16488ed7, com.swdteam.common.kerblam.KerblamItem@3ac2772d, com.swdteam.common.kerblam.KerblamItem@3c380db5, com.swdteam.common.kerblam.KerblamItem@5df17e60, com.swdteam.common.kerblam.KerblamItem@f9d7d3f, com.swdteam.common.kerblam.KerblamItem@264f18fe, com.swdteam.common.kerblam.KerblamItem@5a66fc27, com.swdteam.common.kerblam.KerblamItem@cb29b75, com.swdteam.common.kerblam.KerblamItem@68226b59, com.swdteam.common.kerblam.KerblamItem@3674164b, com.swdteam.common.kerblam.KerblamItem@5b1e5366, com.swdteam.common.kerblam.KerblamItem@43ef1243, com.swdteam.common.kerblam.KerblamItem@386cc1c4, com.swdteam.common.kerblam.KerblamItem@2e3c5ecc, com.swdteam.common.kerblam.KerblamItem@790bd0e, com.swdteam.common.kerblam.KerblamItem@3cd6cab5, com.swdteam.common.kerblam.KerblamItem@626a4e0a, com.swdteam.common.kerblam.KerblamItem@2e6ca6b5, com.swdteam.common.kerblam.KerblamItem@2c9616bb, com.swdteam.common.kerblam.KerblamItem@269fe2fe, com.swdteam.common.kerblam.KerblamItem@1635e239, com.swdteam.common.kerblam.KerblamItem@5d27a744, com.swdteam.common.kerblam.KerblamItem@41185195, com.swdteam.common.kerblam.KerblamItem@1849d35a, com.swdteam.common.kerblam.KerblamItem@2154de40, com.swdteam.common.kerblam.KerblamItem@41a940a9, com.swdteam.common.kerblam.KerblamItem@423e35f0, com.swdteam.common.kerblam.KerblamItem@14bbfdee, com.swdteam.common.kerblam.KerblamItem@139a97e7, com.swdteam.common.kerblam.KerblamItem@18bd3135]
-[22Nov2023 00:33:28.994] [Render thread/ERROR] [net.minecraft.world.biome.BiomeGenerationSettings/]: Feature: Not a JSON object: "dalekmod:classic_sand_patch"; Not a JSON object: "dalekmod:classic_lake"
-[22Nov2023 00:33:29.313] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[22Nov2023 00:33:30.364] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22Nov2023 00:33:30.365] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Nov2023 00:33:30.367] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Nov2023 00:33:30.368] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22Nov2023 00:33:30.369] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Nov2023 00:33:30.370] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.39_mapped_official_1.16.5-recomp.jar, main, the-dalek-mod-59654-4706185_mapped_official_1.16.5.jar
-[22Nov2023 00:33:32.119] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 9 recipes
-[22Nov2023 00:33:33.256] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1308 advancements
-[22Nov2023 00:33:33.258] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:copper
-[22Nov2023 00:33:33.258] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:blockstack_default
-[22Nov2023 00:33:33.258] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:booth_default
-[22Nov2023 00:33:33.258] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:template
-[22Nov2023 00:33:33.258] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:classic
-[22Nov2023 00:33:33.258] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:crystaline
-[22Nov2023 00:33:33.259] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:third
-[22Nov2023 00:33:33.259] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:pagoda_default
-[22Nov2023 00:33:33.259] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:tardis_default
-[22Nov2023 00:33:33.259] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:war
-[22Nov2023 00:33:33.259] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:hudolin
-[22Nov2023 00:33:33.259] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:sidrat_default
-[22Nov2023 00:33:33.261] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.kerblam.KerblamItemReloadListener:apply:51]: [com.swdteam.common.kerblam.KerblamItem@1ab2f166, com.swdteam.common.kerblam.KerblamItem@7015b29b, com.swdteam.common.kerblam.KerblamItem@61e4cf9b, com.swdteam.common.kerblam.KerblamItem@262d72a, com.swdteam.common.kerblam.KerblamItem@f563fc1, com.swdteam.common.kerblam.KerblamItem@520ac5da, com.swdteam.common.kerblam.KerblamItem@15554017, com.swdteam.common.kerblam.KerblamItem@11a0e10, com.swdteam.common.kerblam.KerblamItem@3f8c91c5, com.swdteam.common.kerblam.KerblamItem@3baca7fb, com.swdteam.common.kerblam.KerblamItem@4c60d61, com.swdteam.common.kerblam.KerblamItem@557de967, com.swdteam.common.kerblam.KerblamItem@e2448b4, com.swdteam.common.kerblam.KerblamItem@50e9b5f4, com.swdteam.common.kerblam.KerblamItem@6470078d, com.swdteam.common.kerblam.KerblamItem@5e7cfcb5, com.swdteam.common.kerblam.KerblamItem@72b16e26, com.swdteam.common.kerblam.KerblamItem@6f6a3391, com.swdteam.common.kerblam.KerblamItem@b420d9e, com.swdteam.common.kerblam.KerblamItem@32e2d117, com.swdteam.common.kerblam.KerblamItem@4bdb5933, com.swdteam.common.kerblam.KerblamItem@75931d62, com.swdteam.common.kerblam.KerblamItem@6e26d0b3, com.swdteam.common.kerblam.KerblamItem@4ae8de09, com.swdteam.common.kerblam.KerblamItem@5b6b14a6, com.swdteam.common.kerblam.KerblamItem@367e6aa4, com.swdteam.common.kerblam.KerblamItem@6e858790, com.swdteam.common.kerblam.KerblamItem@621104df, com.swdteam.common.kerblam.KerblamItem@61dcf21f, com.swdteam.common.kerblam.KerblamItem@24328fca, com.swdteam.common.kerblam.KerblamItem@66c935db, com.swdteam.common.kerblam.KerblamItem@c94f221, com.swdteam.common.kerblam.KerblamItem@adeb5a6, com.swdteam.common.kerblam.KerblamItem@3a2227e8, com.swdteam.common.kerblam.KerblamItem@156aba9a, com.swdteam.common.kerblam.KerblamItem@3ec457ec, com.swdteam.common.kerblam.KerblamItem@4148a617, com.swdteam.common.kerblam.KerblamItem@6afec4b1, com.swdteam.common.kerblam.KerblamItem@2a801d1e, com.swdteam.common.kerblam.KerblamItem@36e74495, com.swdteam.common.kerblam.KerblamItem@321b3440, com.swdteam.common.kerblam.KerblamItem@2e5ca5fe, com.swdteam.common.kerblam.KerblamItem@49e35c6, com.swdteam.common.kerblam.KerblamItem@8d11a2c, com.swdteam.common.kerblam.KerblamItem@63838642, com.swdteam.common.kerblam.KerblamItem@28bbac99, com.swdteam.common.kerblam.KerblamItem@5d7e9c4d, com.swdteam.common.kerblam.KerblamItem@5d7efdb4, com.swdteam.common.kerblam.KerblamItem@22b0c1cf, com.swdteam.common.kerblam.KerblamItem@579a6e64]
-[22Nov2023 00:33:33.310] [Render thread/ERROR] [net.minecraft.world.biome.BiomeGenerationSettings/]: Feature: Not a JSON object: "dalekmod:classic_sand_patch"; Not a JSON object: "dalekmod:classic_lake"
-[22Nov2023 00:33:33.590] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[22Nov2023 00:33:37.050] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22Nov2023 00:33:37.051] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Nov2023 00:33:37.053] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Nov2023 00:33:37.054] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22Nov2023 00:33:37.055] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Nov2023 00:33:37.055] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.39_mapped_official_1.16.5-recomp.jar, main, the-dalek-mod-59654-4706185_mapped_official_1.16.5.jar
-[22Nov2023 00:33:38.833] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 9 recipes
-[22Nov2023 00:33:39.948] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1308 advancements
-[22Nov2023 00:33:39.949] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:copper
-[22Nov2023 00:33:39.949] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:blockstack_default
-[22Nov2023 00:33:39.949] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:booth_default
-[22Nov2023 00:33:39.949] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:template
-[22Nov2023 00:33:39.949] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:classic
-[22Nov2023 00:33:39.950] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:crystaline
-[22Nov2023 00:33:39.950] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:third
-[22Nov2023 00:33:39.950] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:pagoda_default
-[22Nov2023 00:33:39.950] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:tardis_default
-[22Nov2023 00:33:39.950] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:war
-[22Nov2023 00:33:39.950] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:hudolin
-[22Nov2023 00:33:39.950] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:sidrat_default
-[22Nov2023 00:33:39.951] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.kerblam.KerblamItemReloadListener:apply:51]: [com.swdteam.common.kerblam.KerblamItem@69e0d31d, com.swdteam.common.kerblam.KerblamItem@ffd66e1, com.swdteam.common.kerblam.KerblamItem@592bc6a7, com.swdteam.common.kerblam.KerblamItem@519552ae, com.swdteam.common.kerblam.KerblamItem@3e821bba, com.swdteam.common.kerblam.KerblamItem@5a2cb8e5, com.swdteam.common.kerblam.KerblamItem@5db553f9, com.swdteam.common.kerblam.KerblamItem@264e6ac3, com.swdteam.common.kerblam.KerblamItem@83ffa7b, com.swdteam.common.kerblam.KerblamItem@37eb8009, com.swdteam.common.kerblam.KerblamItem@40b63796, com.swdteam.common.kerblam.KerblamItem@15fb5531, com.swdteam.common.kerblam.KerblamItem@62e099d7, com.swdteam.common.kerblam.KerblamItem@960a64a, com.swdteam.common.kerblam.KerblamItem@789b3a77, com.swdteam.common.kerblam.KerblamItem@3706ba88, com.swdteam.common.kerblam.KerblamItem@51cea39e, com.swdteam.common.kerblam.KerblamItem@5d100d1b, com.swdteam.common.kerblam.KerblamItem@7cf9dc4c, com.swdteam.common.kerblam.KerblamItem@7ea9fba1, com.swdteam.common.kerblam.KerblamItem@5a5f65b9, com.swdteam.common.kerblam.KerblamItem@77ad33c, com.swdteam.common.kerblam.KerblamItem@35d36423, com.swdteam.common.kerblam.KerblamItem@416e5cb, com.swdteam.common.kerblam.KerblamItem@25452a5d, com.swdteam.common.kerblam.KerblamItem@74f7eefa, com.swdteam.common.kerblam.KerblamItem@5aab7e3b, com.swdteam.common.kerblam.KerblamItem@69a0f018, com.swdteam.common.kerblam.KerblamItem@653b28b3, com.swdteam.common.kerblam.KerblamItem@2ef08ad0, com.swdteam.common.kerblam.KerblamItem@2fab6393, com.swdteam.common.kerblam.KerblamItem@41e5664e, com.swdteam.common.kerblam.KerblamItem@7da7b071, com.swdteam.common.kerblam.KerblamItem@572b031f, com.swdteam.common.kerblam.KerblamItem@23685592, com.swdteam.common.kerblam.KerblamItem@495590a7, com.swdteam.common.kerblam.KerblamItem@9b195c4, com.swdteam.common.kerblam.KerblamItem@60d5c16, com.swdteam.common.kerblam.KerblamItem@67a84d80, com.swdteam.common.kerblam.KerblamItem@21d297a, com.swdteam.common.kerblam.KerblamItem@7879348, com.swdteam.common.kerblam.KerblamItem@6b869242, com.swdteam.common.kerblam.KerblamItem@4ee706ff, com.swdteam.common.kerblam.KerblamItem@25daa0a0, com.swdteam.common.kerblam.KerblamItem@1efc6a80, com.swdteam.common.kerblam.KerblamItem@4137ff9f, com.swdteam.common.kerblam.KerblamItem@3791c9b8, com.swdteam.common.kerblam.KerblamItem@47bea04a, com.swdteam.common.kerblam.KerblamItem@3aeb6a57, com.swdteam.common.kerblam.KerblamItem@445eb192]
-[22Nov2023 00:33:39.996] [Render thread/ERROR] [net.minecraft.world.biome.BiomeGenerationSettings/]: Feature: Not a JSON object: "dalekmod:classic_sand_patch"; Not a JSON object: "dalekmod:classic_lake"
-[22Nov2023 00:33:40.203] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[22Nov2023 00:33:41.181] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22Nov2023 00:33:41.182] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Nov2023 00:33:41.183] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Nov2023 00:33:41.184] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22Nov2023 00:33:41.185] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Nov2023 00:33:41.185] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.39_mapped_official_1.16.5-recomp.jar, main, the-dalek-mod-59654-4706185_mapped_official_1.16.5.jar
-[22Nov2023 00:33:43.167] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 9 recipes
-[22Nov2023 00:33:44.352] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1308 advancements
-[22Nov2023 00:33:44.352] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:copper
-[22Nov2023 00:33:44.352] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:blockstack_default
-[22Nov2023 00:33:44.352] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:booth_default
-[22Nov2023 00:33:44.353] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:template
-[22Nov2023 00:33:44.353] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:classic
-[22Nov2023 00:33:44.353] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:crystaline
-[22Nov2023 00:33:44.353] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:third
-[22Nov2023 00:33:44.353] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:pagoda_default
-[22Nov2023 00:33:44.353] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:tardis_default
-[22Nov2023 00:33:44.353] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:war
-[22Nov2023 00:33:44.353] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:hudolin
-[22Nov2023 00:33:44.353] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:sidrat_default
-[22Nov2023 00:33:44.355] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.kerblam.KerblamItemReloadListener:apply:51]: [com.swdteam.common.kerblam.KerblamItem@36aab341, com.swdteam.common.kerblam.KerblamItem@448dcc13, com.swdteam.common.kerblam.KerblamItem@496ce170, com.swdteam.common.kerblam.KerblamItem@7809027c, com.swdteam.common.kerblam.KerblamItem@1b5a8687, com.swdteam.common.kerblam.KerblamItem@311d3cab, com.swdteam.common.kerblam.KerblamItem@1fd42c99, com.swdteam.common.kerblam.KerblamItem@2ffed7fd, com.swdteam.common.kerblam.KerblamItem@605f023b, com.swdteam.common.kerblam.KerblamItem@38ff82ff, com.swdteam.common.kerblam.KerblamItem@6f1c19d, com.swdteam.common.kerblam.KerblamItem@5f69bf81, com.swdteam.common.kerblam.KerblamItem@473f308d, com.swdteam.common.kerblam.KerblamItem@393baef, com.swdteam.common.kerblam.KerblamItem@be67e29, com.swdteam.common.kerblam.KerblamItem@19e15d63, com.swdteam.common.kerblam.KerblamItem@2764ad8a, com.swdteam.common.kerblam.KerblamItem@393e3f4b, com.swdteam.common.kerblam.KerblamItem@1110973, com.swdteam.common.kerblam.KerblamItem@12885677, com.swdteam.common.kerblam.KerblamItem@1002a151, com.swdteam.common.kerblam.KerblamItem@588e107d, com.swdteam.common.kerblam.KerblamItem@51ddc08e, com.swdteam.common.kerblam.KerblamItem@1b60f2c, com.swdteam.common.kerblam.KerblamItem@43b3e62, com.swdteam.common.kerblam.KerblamItem@2c9ecb60, com.swdteam.common.kerblam.KerblamItem@1378b7cd, com.swdteam.common.kerblam.KerblamItem@228605e1, com.swdteam.common.kerblam.KerblamItem@7f93f7fd, com.swdteam.common.kerblam.KerblamItem@250cf6a4, com.swdteam.common.kerblam.KerblamItem@739ceb17, com.swdteam.common.kerblam.KerblamItem@61a74188, com.swdteam.common.kerblam.KerblamItem@16b6e5e, com.swdteam.common.kerblam.KerblamItem@43900101, com.swdteam.common.kerblam.KerblamItem@57c09e37, com.swdteam.common.kerblam.KerblamItem@cb02e46, com.swdteam.common.kerblam.KerblamItem@56f3a810, com.swdteam.common.kerblam.KerblamItem@15a833c6, com.swdteam.common.kerblam.KerblamItem@464a3662, com.swdteam.common.kerblam.KerblamItem@4b05e2f3, com.swdteam.common.kerblam.KerblamItem@7d60ab, com.swdteam.common.kerblam.KerblamItem@549f5561, com.swdteam.common.kerblam.KerblamItem@437190b6, com.swdteam.common.kerblam.KerblamItem@2787e051, com.swdteam.common.kerblam.KerblamItem@4c14a432, com.swdteam.common.kerblam.KerblamItem@620ed48c, com.swdteam.common.kerblam.KerblamItem@2db51c5b, com.swdteam.common.kerblam.KerblamItem@3528e4d4, com.swdteam.common.kerblam.KerblamItem@5c74f377, com.swdteam.common.kerblam.KerblamItem@484af6c1]
-[22Nov2023 00:33:44.406] [Render thread/ERROR] [net.minecraft.world.biome.BiomeGenerationSettings/]: Feature: Not a JSON object: "dalekmod:classic_sand_patch"; Not a JSON object: "dalekmod:classic_lake"
-[22Nov2023 00:33:44.625] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[22Nov2023 00:33:46.486] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22Nov2023 00:33:46.531] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.5
-[22Nov2023 00:33:46.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[22Nov2023 00:33:46.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[22Nov2023 00:33:47.718] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[22Nov2023 00:33:47.718] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[22Nov2023 00:33:47.918] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[22Nov2023 00:33:48.267] [Server thread/INFO] [tk.jacobempire.chameleonaddon.Chameleonaddon/]: HELLO from server starting
-[22Nov2023 00:33:48.285] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1399 ms
-[22Nov2023 00:33:48.639] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
-[22Nov2023 00:33:50.957] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[22Nov2023 00:33:51.068] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@3a41fd1d
-[22Nov2023 00:33:51.092] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:d9660fdf] logged in with entity id 111 at (129.27922471817078, 127.0, 131.9311173541937)
-[22Nov2023 00:33:51.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[22Nov2023 00:33:51.200] [Server thread/INFO] [STDOUT/]: [com.swdteam.common.event.EventHandlerGeneral:onPlayerLogin:143]: Syncing reg for: TextComponent{text='Dev', siblings=[], style=Style{ color=null, bold=null, italic=null, underlined=null, strikethrough=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null, font=minecraft:default}}
-[22Nov2023 00:33:51.485] [Render thread/INFO] [STDOUT/]: [com.swdteam.client.init.BusClientEvents:clearCache:547]: Cleared client TARDIS cache
-[22Nov2023 00:33:51.511] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[22Nov2023 00:33:51.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Nov2023 00:33:51.796] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 39 advancements
-[22Nov2023 00:33:52.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Nov2023 00:33:52.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Nov2023 00:33:52.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
-[22Nov2023 00:33:52.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
-[22Nov2023 00:33:52.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
-[22Nov2023 00:33:52.402] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
-[22Nov2023 00:33:52.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
-[22Nov2023 00:33:52.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
-[22Nov2023 00:34:24.396] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 30998ms or 619 ticks behind
-[22Nov2023 00:34:24.950] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[22Nov2023 00:34:24.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Nov2023 00:34:25.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Nov2023 00:34:25.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Nov2023 00:34:25.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
-[22Nov2023 00:34:25.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
-[22Nov2023 00:34:25.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
-[22Nov2023 00:34:25.009] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
-[22Nov2023 00:34:25.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
-[22Nov2023 00:34:25.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
-[22Nov2023 00:34:34.934] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[22Nov2023 00:34:34.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Nov2023 00:34:34.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Nov2023 00:34:35.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Nov2023 00:34:35.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
-[22Nov2023 00:34:35.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
-[22Nov2023 00:34:35.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
-[22Nov2023 00:34:35.007] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
-[22Nov2023 00:34:35.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
-[22Nov2023 00:34:35.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
-[22Nov2023 00:34:38.166] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[22Nov2023 00:34:38.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Nov2023 00:34:38.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Nov2023 00:34:38.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Nov2023 00:34:38.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
-[22Nov2023 00:34:38.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
-[22Nov2023 00:34:38.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
-[22Nov2023 00:34:38.250] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
-[22Nov2023 00:34:38.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
-[22Nov2023 00:34:38.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
-[22Nov2023 00:34:46.299] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[22Nov2023 00:34:46.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Nov2023 00:34:46.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Nov2023 00:34:46.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Nov2023 00:34:46.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
-[22Nov2023 00:34:46.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
-[22Nov2023 00:34:46.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
-[22Nov2023 00:34:46.345] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
-[22Nov2023 00:34:46.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
-[22Nov2023 00:34:46.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
-[22Nov2023 00:41:02.090] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 189142ms or 3782 ticks behind
-[22Nov2023 00:41:22.371] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[22Nov2023 00:41:22.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Nov2023 00:41:22.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Nov2023 00:41:22.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Nov2023 00:41:22.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
-[22Nov2023 00:41:22.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
-[22Nov2023 00:41:22.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
-[22Nov2023 00:41:22.408] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
-[22Nov2023 00:41:22.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
-[22Nov2023 00:41:22.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
-[22Nov2023 00:41:22.429] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5382ms or 107 ticks behind
-[22Nov2023 00:41:46.959] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[22Nov2023 00:41:46.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Nov2023 00:41:46.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Nov2023 00:41:46.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Nov2023 00:41:46.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
-[22Nov2023 00:41:46.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
-[22Nov2023 00:41:46.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
-[22Nov2023 00:41:46.998] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
-[22Nov2023 00:41:46.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
-[22Nov2023 00:41:47.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
-[22Nov2023 00:41:47.019] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9621ms or 192 ticks behind
-[22Nov2023 00:43:22.216] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6268ms or 125 ticks behind
-[22Nov2023 00:43:22.748] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[22Nov2023 00:43:22.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Nov2023 00:43:22.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Nov2023 00:43:22.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Nov2023 00:43:22.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
-[22Nov2023 00:43:22.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
-[22Nov2023 00:43:22.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
-[22Nov2023 00:43:22.784] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
-[22Nov2023 00:43:22.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
-[22Nov2023 00:43:22.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
-[22Nov2023 00:43:28.073] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[22Nov2023 00:43:28.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Nov2023 00:43:28.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Nov2023 00:43:28.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Nov2023 00:43:28.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
-[22Nov2023 00:43:28.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
-[22Nov2023 00:43:28.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
-[22Nov2023 00:43:28.114] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
-[22Nov2023 00:43:28.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
-[22Nov2023 00:43:28.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
-[22Nov2023 00:43:34.249] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[22Nov2023 00:43:34.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Nov2023 00:43:34.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Nov2023 00:43:34.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Nov2023 00:43:34.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
-[22Nov2023 00:43:34.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
-[22Nov2023 00:43:34.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
-[22Nov2023 00:43:34.322] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
-[22Nov2023 00:43:34.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
-[22Nov2023 00:43:34.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
-[22Nov2023 00:44:01.854] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[22Nov2023 00:44:01.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[22Nov2023 00:44:01.861] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[22Nov2023 00:44:01.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[22Nov2023 00:44:01.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[22Nov2023 00:44:01.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[22Nov2023 00:44:01.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Nov2023 00:44:02.454] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[22Nov2023 00:44:02.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Nov2023 00:44:02.455] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22Nov2023 00:44:02.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Nov2023 00:44:02.456] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22Nov2023 00:44:02.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
-[22Nov2023 00:44:02.457] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (minecraft_infdev): All chunks are saved
-[22Nov2023 00:44:02.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
-[22Nov2023 00:44:02.458] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skaro): All chunks are saved
-[22Nov2023 00:44:02.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
-[22Nov2023 00:44:02.459] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
-[22Nov2023 00:44:02.495] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (tardis): All chunks are saved
-[22Nov2023 00:44:02.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
-[22Nov2023 00:44:02.496] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (cave_game): All chunks are saved
-[22Nov2023 00:44:02.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
-[22Nov2023 00:44:02.497] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (minecraft_classic): All chunks are saved
-[22Nov2023 00:44:02.554] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[22Nov2023 00:44:02.579] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22Nov2023 00:44:02.579] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22Nov2023 00:44:02.579] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (minecraft_infdev): All chunks are saved
-[22Nov2023 00:44:02.580] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skaro): All chunks are saved
-[22Nov2023 00:44:02.587] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (tardis): All chunks are saved
-[22Nov2023 00:44:02.721] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (cave_game): All chunks are saved
-[22Nov2023 00:44:02.721] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (minecraft_classic): All chunks are saved
-[22Nov2023 00:44:04.602] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[22Nov2023 01:18:02.563] [main/INFO] [net.minecraftforge.userdev.ArgumentList/]: Duplicate entries for mixin.config Unindexable
+[22Nov2023 01:18:02.586] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [-mixin.config=cloak.mixins.json, --mixin.config, cloak.mixins.json, --gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.39, --assetIndex, 1.16, --assetsDir, C:\Users\jacob\.gradle\caches\forge_gradle\assets, --version, MOD_DEV, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[22Nov2023 01:18:02.587] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_312 by Temurin
+[22Nov2023 01:18:03.581] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[22Nov2023 01:18:03.643] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/jacob/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[22Nov2023 01:18:05.412] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 13:73 token recognition error at: ';'
+[22Nov2023 01:18:06.140] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\jacob\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[22Nov2023 01:18:06.248] [main/WARN] [mixin/]: Reference map 'cloakpaneladdon.refmap.json' for cloak.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Nov2023 01:18:06.442] [main/INFO] [mixin/]: Remapping refMap mixins.dalekmod.refmap.json using D:\mod workspaces\chamelonaddon_invisibility\build/createSrgToMcp/output.srg
+[22Nov2023 01:18:16.129] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Nov2023 01:18:16.600] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[22Nov2023 01:18:16.823] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[22Nov2023 01:18:17.789] [modloading-worker-11/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
+[22Nov2023 01:18:17.794] [modloading-worker-11/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
+[22Nov2023 01:18:19.149] [Render thread/INFO] [tk.jacobempire.cloakpaneladdon.CloakPanelAddon/]: HELLO from Register Block
+[22Nov2023 01:18:21.890] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[22Nov2023 01:18:21.988] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[22Nov2023 01:18:22.023] [Worker-Main-9/INFO] [tk.jacobempire.cloakpaneladdon.CloakPanelAddon/]: HELLO FROM PREINIT
+[22Nov2023 01:18:22.023] [Worker-Main-9/INFO] [tk.jacobempire.cloakpaneladdon.CloakPanelAddon/]: DIRT BLOCK >> minecraft:dirt
+[22Nov2023 01:18:22.075] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Nov2023 01:18:22.626] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.39 Target: null
+[22Nov2023 01:18:22.645] [Worker-Main-11/WARN] [net.minecraft.client.audio.SoundHandler/]: File dalekmod:sounds/entity/dalek_imperial_exterminate_1.ogg does not exist, cannot add it to event dalekmod:entity.dalek_imperial_attack
+[22Nov2023 01:18:22.646] [Worker-Main-11/WARN] [net.minecraft.client.audio.SoundHandler/]: File dalekmod:sounds/entity/cyberman_living_6.ogg does not exist, cannot add it to event dalekmod:entity.cyberman_living
+[22Nov2023 01:18:22.883] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:auton, use EntityAttributeCreationEvent instead.
+[22Nov2023 01:18:22.883] [Render thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.swdteam.common.entity.AutonEntity from class com.swdteam.common.entity.CybermanEntity
+[22Nov2023 01:18:22.883] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:cyberman, use EntityAttributeCreationEvent instead.
+[22Nov2023 01:18:22.884] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:dalek, use EntityAttributeCreationEvent instead.
+[22Nov2023 01:18:22.884] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:classic_spider, use EntityAttributeCreationEvent instead.
+[22Nov2023 01:18:22.884] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:classic_skeleton, use EntityAttributeCreationEvent instead.
+[22Nov2023 01:18:22.885] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:weeping_angel, use EntityAttributeCreationEvent instead.
+[22Nov2023 01:18:22.885] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:kerblam_man, use EntityAttributeCreationEvent instead.
+[22Nov2023 01:18:22.885] [Render thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.swdteam.common.entity.AutonEntity from class com.swdteam.common.entity.CybervillagerEntity
+[22Nov2023 01:18:22.885] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:cybervillager, use EntityAttributeCreationEvent instead.
+[22Nov2023 01:18:22.885] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:cybermat, use EntityAttributeCreationEvent instead.
+[22Nov2023 01:18:22.886] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:cyberdrone, use EntityAttributeCreationEvent instead.
+[22Nov2023 01:18:22.886] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dalekmod:ood, use EntityAttributeCreationEvent instead.
+[22Nov2023 01:18:22.970] [Worker-Main-8/INFO] [tk.jacobempire.cloakpaneladdon.CloakPanelAddon/]: Got game settings net.minecraft.client.GameSettings@27c3a80e
+[22Nov2023 01:18:23.357] [Worker-Main-11/INFO] [com.swdteam.main.DalekMod/]: Registering TileEntity Renders
+[22Nov2023 01:18:23.490] [Worker-Main-11/INFO] [com.swdteam.main.DalekMod/]: Registering Entity Renders
+[22Nov2023 01:18:26.481] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: cloak:blockstates/cloaking_panel.json: java.io.FileNotFoundException: cloak:blockstates/cloaking_panel.json
+[22Nov2023 01:18:26.482] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'cloak:blockstates/cloaking_panel.json' missing model for variant: 'cloak:cloaking_panel#facing=north,waterlogged=true'
+[22Nov2023 01:18:26.482] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'cloak:blockstates/cloaking_panel.json' missing model for variant: 'cloak:cloaking_panel#facing=east,waterlogged=false'
+[22Nov2023 01:18:26.483] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'cloak:blockstates/cloaking_panel.json' missing model for variant: 'cloak:cloaking_panel#facing=south,waterlogged=false'
+[22Nov2023 01:18:26.483] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'cloak:blockstates/cloaking_panel.json' missing model for variant: 'cloak:cloaking_panel#facing=east,waterlogged=true'
+[22Nov2023 01:18:26.483] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'cloak:blockstates/cloaking_panel.json' missing model for variant: 'cloak:cloaking_panel#facing=west,waterlogged=false'
+[22Nov2023 01:18:26.483] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'cloak:blockstates/cloaking_panel.json' missing model for variant: 'cloak:cloaking_panel#facing=south,waterlogged=true'
+[22Nov2023 01:18:26.483] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'cloak:blockstates/cloaking_panel.json' missing model for variant: 'cloak:cloaking_panel#facing=north,waterlogged=false'
+[22Nov2023 01:18:26.483] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'cloak:blockstates/cloaking_panel.json' missing model for variant: 'cloak:cloaking_panel#facing=west,waterlogged=true'
+[22Nov2023 01:18:28.272] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'cloak:cloaking_panel#inventory' referenced from: cloak:cloaking_panel#inventory: java.io.FileNotFoundException: cloak:models/item/cloaking_panel.json
+[22Nov2023 01:18:28.956] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in dalekmod:block/kerblam_computer
+[22Nov2023 01:18:28.956] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in dalekmod:block/data_writer_module
+[22Nov2023 01:18:28.956] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in dalekmod:block/data_writer
+[22Nov2023 01:18:28.956] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in dalekmod:block/data_writer_module_gold
+[22Nov2023 01:18:28.956] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in dalekmod:item/kerblam_computer
+[22Nov2023 01:18:29.326] [Worker-Main-13/WARN] [net.minecraft.client.renderer.texture.AtlasTexture/]: Texture dalekmod:item/renegade_dalek_spawner with size 16x14 limits mip level from 4 to 1
+[22Nov2023 01:18:29.855] [Worker-Main-10/INFO] [com.swdteam.main.DalekMod/]: Got IMC []
+[22Nov2023 01:18:31.234] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[22Nov2023 01:18:31.236] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[22Nov2023 01:18:31.534] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[22Nov2023 01:18:31.791] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[22Nov2023 01:18:31.793] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22Nov2023 01:18:31.799] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22Nov2023 01:18:31.804] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22Nov2023 01:18:31.806] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22Nov2023 01:18:31.808] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22Nov2023 01:18:32.765] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[22Nov2023 01:18:32.772] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22Nov2023 01:18:32.774] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22Nov2023 01:18:33.045] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[22Nov2023 01:18:42.788] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:chameleonaddon
+[22Nov2023 01:18:43.153] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Nov2023 01:18:43.155] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Nov2023 01:18:43.156] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Nov2023 01:18:43.157] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Nov2023 01:18:43.158] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Nov2023 01:18:43.173] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.39_mapped_official_1.16.5-recomp.jar, the-dalek-mod-59654-4706185_mapped_official_1.16.5.jar, main
+[22Nov2023 01:18:44.914] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 9 recipes
+[22Nov2023 01:18:46.082] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1308 advancements
+[22Nov2023 01:18:46.085] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:copper
+[22Nov2023 01:18:46.085] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:blockstack_default
+[22Nov2023 01:18:46.085] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:booth_default
+[22Nov2023 01:18:46.085] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:template
+[22Nov2023 01:18:46.085] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:classic
+[22Nov2023 01:18:46.085] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:crystaline
+[22Nov2023 01:18:46.085] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:third
+[22Nov2023 01:18:46.086] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:pagoda_default
+[22Nov2023 01:18:46.086] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:tardis_default
+[22Nov2023 01:18:46.086] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:war
+[22Nov2023 01:18:46.086] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:hudolin
+[22Nov2023 01:18:46.086] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:sidrat_default
+[22Nov2023 01:18:46.111] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.kerblam.KerblamItemReloadListener:apply:51]: [com.swdteam.common.kerblam.KerblamItem@33012e6f, com.swdteam.common.kerblam.KerblamItem@7593716d, com.swdteam.common.kerblam.KerblamItem@4086e003, com.swdteam.common.kerblam.KerblamItem@3a7be6e6, com.swdteam.common.kerblam.KerblamItem@33c590, com.swdteam.common.kerblam.KerblamItem@6ec5c4e2, com.swdteam.common.kerblam.KerblamItem@1934a7c1, com.swdteam.common.kerblam.KerblamItem@7c9d2ed7, com.swdteam.common.kerblam.KerblamItem@621c7b91, com.swdteam.common.kerblam.KerblamItem@223e51e4, com.swdteam.common.kerblam.KerblamItem@1e08f0cd, com.swdteam.common.kerblam.KerblamItem@b768e4d, com.swdteam.common.kerblam.KerblamItem@ab7ac41, com.swdteam.common.kerblam.KerblamItem@5ad67d82, com.swdteam.common.kerblam.KerblamItem@301608d, com.swdteam.common.kerblam.KerblamItem@3c3a8246, com.swdteam.common.kerblam.KerblamItem@bd8f424, com.swdteam.common.kerblam.KerblamItem@620ba2b0, com.swdteam.common.kerblam.KerblamItem@6a06b374, com.swdteam.common.kerblam.KerblamItem@2c634c0, com.swdteam.common.kerblam.KerblamItem@4e739968, com.swdteam.common.kerblam.KerblamItem@71d2bc34, com.swdteam.common.kerblam.KerblamItem@2e903c69, com.swdteam.common.kerblam.KerblamItem@1dc37d4f, com.swdteam.common.kerblam.KerblamItem@4f290f46, com.swdteam.common.kerblam.KerblamItem@2bfe398b, com.swdteam.common.kerblam.KerblamItem@4a23be9, com.swdteam.common.kerblam.KerblamItem@20d1737, com.swdteam.common.kerblam.KerblamItem@5d96b0f, com.swdteam.common.kerblam.KerblamItem@5f31385e, com.swdteam.common.kerblam.KerblamItem@4a592d22, com.swdteam.common.kerblam.KerblamItem@20072ff1, com.swdteam.common.kerblam.KerblamItem@6e48b9ed, com.swdteam.common.kerblam.KerblamItem@38ed9fb2, com.swdteam.common.kerblam.KerblamItem@3bde85b0, com.swdteam.common.kerblam.KerblamItem@22bf4d9d, com.swdteam.common.kerblam.KerblamItem@9930ff6, com.swdteam.common.kerblam.KerblamItem@5d571179, com.swdteam.common.kerblam.KerblamItem@12ebfc66, com.swdteam.common.kerblam.KerblamItem@4a609803, com.swdteam.common.kerblam.KerblamItem@5b1dd206, com.swdteam.common.kerblam.KerblamItem@3ea4dcc5, com.swdteam.common.kerblam.KerblamItem@73611fbb, com.swdteam.common.kerblam.KerblamItem@3d0f2154, com.swdteam.common.kerblam.KerblamItem@8374911, com.swdteam.common.kerblam.KerblamItem@106dee26, com.swdteam.common.kerblam.KerblamItem@6b0aa757, com.swdteam.common.kerblam.KerblamItem@2f4b2ee3, com.swdteam.common.kerblam.KerblamItem@1d0695da, com.swdteam.common.kerblam.KerblamItem@62e55482]
+[22Nov2023 01:18:46.163] [Render thread/ERROR] [net.minecraft.world.biome.BiomeGenerationSettings/]: Feature: Not a JSON object: "dalekmod:classic_sand_patch"; Not a JSON object: "dalekmod:classic_lake"
+[22Nov2023 01:18:46.509] [Render thread/ERROR] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod chameleonaddon which appears to be missing, things may not work well
+[22Nov2023 01:18:46.520] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[22Nov2023 01:18:46.530] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Found a missing id from the world chameleonaddon:cloaking_panel
+[22Nov2023 01:18:46.539] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Found a missing id from the world chameleonaddon:cloaking_panel
+[22Nov2023 01:18:46.563] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	chameleonaddon:cloaking_panel: 763
+
+[22Nov2023 01:18:46.565] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	chameleonaddon:cloaking_panel: 1641
+
+[22Nov2023 01:18:46.565] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 2 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[22Nov2023 01:18:46.565] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:item:
+    chameleonaddon:cloaking_panel
+
+Missing minecraft:block:
+    chameleonaddon:cloaking_panel
+
+
+[22Nov2023 01:18:46.566] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[22Nov2023 01:18:46.569] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: cloak:cloaking_panel Expected: 763 Got: 1241
+[22Nov2023 01:18:47.575] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:chameleonaddon
+[22Nov2023 01:18:47.586] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Nov2023 01:18:47.587] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Nov2023 01:18:47.588] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Nov2023 01:18:47.588] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Nov2023 01:18:47.589] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Nov2023 01:18:47.590] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.39_mapped_official_1.16.5-recomp.jar, the-dalek-mod-59654-4706185_mapped_official_1.16.5.jar, main
+[22Nov2023 01:18:49.282] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 9 recipes
+[22Nov2023 01:18:50.230] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1308 advancements
+[22Nov2023 01:18:50.231] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:copper
+[22Nov2023 01:18:50.232] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:blockstack_default
+[22Nov2023 01:18:50.232] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:booth_default
+[22Nov2023 01:18:50.232] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:template
+[22Nov2023 01:18:50.232] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:classic
+[22Nov2023 01:18:50.232] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:crystaline
+[22Nov2023 01:18:50.232] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:third
+[22Nov2023 01:18:50.233] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:pagoda_default
+[22Nov2023 01:18:50.233] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:tardis_default
+[22Nov2023 01:18:50.233] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:war
+[22Nov2023 01:18:50.233] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:hudolin
+[22Nov2023 01:18:50.233] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:sidrat_default
+[22Nov2023 01:18:50.237] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.kerblam.KerblamItemReloadListener:apply:51]: [com.swdteam.common.kerblam.KerblamItem@73d76b9d, com.swdteam.common.kerblam.KerblamItem@11aeb673, com.swdteam.common.kerblam.KerblamItem@a0b11, com.swdteam.common.kerblam.KerblamItem@c76c029, com.swdteam.common.kerblam.KerblamItem@4435c9b9, com.swdteam.common.kerblam.KerblamItem@204ce262, com.swdteam.common.kerblam.KerblamItem@704e27f9, com.swdteam.common.kerblam.KerblamItem@4a83c651, com.swdteam.common.kerblam.KerblamItem@2091b6b9, com.swdteam.common.kerblam.KerblamItem@67091f3b, com.swdteam.common.kerblam.KerblamItem@66f99dcc, com.swdteam.common.kerblam.KerblamItem@321c6e0c, com.swdteam.common.kerblam.KerblamItem@1f953288, com.swdteam.common.kerblam.KerblamItem@30ca1686, com.swdteam.common.kerblam.KerblamItem@1a77faae, com.swdteam.common.kerblam.KerblamItem@4bca8be2, com.swdteam.common.kerblam.KerblamItem@7dfdf161, com.swdteam.common.kerblam.KerblamItem@1de3a67e, com.swdteam.common.kerblam.KerblamItem@38648de6, com.swdteam.common.kerblam.KerblamItem@27ee8493, com.swdteam.common.kerblam.KerblamItem@350a0ff6, com.swdteam.common.kerblam.KerblamItem@35da9f7f, com.swdteam.common.kerblam.KerblamItem@29cd3f9f, com.swdteam.common.kerblam.KerblamItem@7a54fc29, com.swdteam.common.kerblam.KerblamItem@1fc4292a, com.swdteam.common.kerblam.KerblamItem@7e846cca, com.swdteam.common.kerblam.KerblamItem@3e759542, com.swdteam.common.kerblam.KerblamItem@639d8311, com.swdteam.common.kerblam.KerblamItem@5d2e6b31, com.swdteam.common.kerblam.KerblamItem@91ae62, com.swdteam.common.kerblam.KerblamItem@125ce4b7, com.swdteam.common.kerblam.KerblamItem@1dd678e6, com.swdteam.common.kerblam.KerblamItem@330fff8e, com.swdteam.common.kerblam.KerblamItem@3ee0a533, com.swdteam.common.kerblam.KerblamItem@4bec8704, com.swdteam.common.kerblam.KerblamItem@65d3d7d7, com.swdteam.common.kerblam.KerblamItem@296ca76c, com.swdteam.common.kerblam.KerblamItem@129e564f, com.swdteam.common.kerblam.KerblamItem@3d6527bf, com.swdteam.common.kerblam.KerblamItem@46f322ab, com.swdteam.common.kerblam.KerblamItem@ae8aade, com.swdteam.common.kerblam.KerblamItem@6a24b9e2, com.swdteam.common.kerblam.KerblamItem@7e6833c6, com.swdteam.common.kerblam.KerblamItem@21d1a0da, com.swdteam.common.kerblam.KerblamItem@6ea04064, com.swdteam.common.kerblam.KerblamItem@21041ffb, com.swdteam.common.kerblam.KerblamItem@1ecdfe1e, com.swdteam.common.kerblam.KerblamItem@32b64a6d, com.swdteam.common.kerblam.KerblamItem@5ef98f3f, com.swdteam.common.kerblam.KerblamItem@5f83a8dc]
+[22Nov2023 01:18:50.293] [Render thread/ERROR] [net.minecraft.world.biome.BiomeGenerationSettings/]: Feature: Not a JSON object: "dalekmod:classic_sand_patch"; Not a JSON object: "dalekmod:classic_lake"
+[22Nov2023 01:18:50.543] [Render thread/ERROR] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod chameleonaddon which appears to be missing, things may not work well
+[22Nov2023 01:18:50.547] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[22Nov2023 01:18:50.553] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Skipping injection of dummied object chameleonaddon:cloaking_panel
+[22Nov2023 01:18:50.562] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Found a missing id from the world chameleonaddon:cloaking_panel
+[22Nov2023 01:18:50.578] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	chameleonaddon:cloaking_panel: 1641
+
+[22Nov2023 01:18:50.578] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 1 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[22Nov2023 01:18:50.578] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:item:
+    chameleonaddon:cloaking_panel
+
+
+[22Nov2023 01:18:50.578] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[22Nov2023 01:18:52.546] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:chameleonaddon
+[22Nov2023 01:18:52.553] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Nov2023 01:18:52.553] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Nov2023 01:18:52.554] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Nov2023 01:18:52.555] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Nov2023 01:18:52.556] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Nov2023 01:18:52.556] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.39_mapped_official_1.16.5-recomp.jar, the-dalek-mod-59654-4706185_mapped_official_1.16.5.jar, main
+[22Nov2023 01:18:54.151] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 9 recipes
+[22Nov2023 01:18:55.068] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1308 advancements
+[22Nov2023 01:18:55.069] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:copper
+[22Nov2023 01:18:55.069] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:blockstack_default
+[22Nov2023 01:18:55.069] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:booth_default
+[22Nov2023 01:18:55.069] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:template
+[22Nov2023 01:18:55.070] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:classic
+[22Nov2023 01:18:55.070] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:crystaline
+[22Nov2023 01:18:55.070] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:third
+[22Nov2023 01:18:55.070] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:pagoda_default
+[22Nov2023 01:18:55.070] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:tardis_default
+[22Nov2023 01:18:55.070] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:war
+[22Nov2023 01:18:55.070] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:hudolin
+[22Nov2023 01:18:55.070] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:sidrat_default
+[22Nov2023 01:18:55.072] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.kerblam.KerblamItemReloadListener:apply:51]: [com.swdteam.common.kerblam.KerblamItem@686aa9c9, com.swdteam.common.kerblam.KerblamItem@2d87ac2b, com.swdteam.common.kerblam.KerblamItem@7c5f244c, com.swdteam.common.kerblam.KerblamItem@4ad667c8, com.swdteam.common.kerblam.KerblamItem@77cfbbba, com.swdteam.common.kerblam.KerblamItem@67b9b79c, com.swdteam.common.kerblam.KerblamItem@62418263, com.swdteam.common.kerblam.KerblamItem@1bd051c4, com.swdteam.common.kerblam.KerblamItem@11483b6f, com.swdteam.common.kerblam.KerblamItem@3be76b8d, com.swdteam.common.kerblam.KerblamItem@555bb408, com.swdteam.common.kerblam.KerblamItem@4c1c9116, com.swdteam.common.kerblam.KerblamItem@1cdf48b9, com.swdteam.common.kerblam.KerblamItem@1ce4f3ac, com.swdteam.common.kerblam.KerblamItem@1497efcc, com.swdteam.common.kerblam.KerblamItem@3cab5869, com.swdteam.common.kerblam.KerblamItem@5ad755c5, com.swdteam.common.kerblam.KerblamItem@6115b4a0, com.swdteam.common.kerblam.KerblamItem@4a57cec1, com.swdteam.common.kerblam.KerblamItem@2cd9bff2, com.swdteam.common.kerblam.KerblamItem@4c40aed1, com.swdteam.common.kerblam.KerblamItem@bca34d, com.swdteam.common.kerblam.KerblamItem@7469445d, com.swdteam.common.kerblam.KerblamItem@152e530d, com.swdteam.common.kerblam.KerblamItem@5c51515f, com.swdteam.common.kerblam.KerblamItem@39122753, com.swdteam.common.kerblam.KerblamItem@7e7c780, com.swdteam.common.kerblam.KerblamItem@60b65a4a, com.swdteam.common.kerblam.KerblamItem@363b24aa, com.swdteam.common.kerblam.KerblamItem@1ebbb581, com.swdteam.common.kerblam.KerblamItem@27d9ba11, com.swdteam.common.kerblam.KerblamItem@756fd0aa, com.swdteam.common.kerblam.KerblamItem@1a9ea4d9, com.swdteam.common.kerblam.KerblamItem@59ca0db6, com.swdteam.common.kerblam.KerblamItem@33293dac, com.swdteam.common.kerblam.KerblamItem@384841e3, com.swdteam.common.kerblam.KerblamItem@571f925f, com.swdteam.common.kerblam.KerblamItem@5eb192b7, com.swdteam.common.kerblam.KerblamItem@248f1090, com.swdteam.common.kerblam.KerblamItem@5eb20abb, com.swdteam.common.kerblam.KerblamItem@7514e658, com.swdteam.common.kerblam.KerblamItem@2762e667, com.swdteam.common.kerblam.KerblamItem@7b35798b, com.swdteam.common.kerblam.KerblamItem@351c4384, com.swdteam.common.kerblam.KerblamItem@67e85559, com.swdteam.common.kerblam.KerblamItem@5789d61d, com.swdteam.common.kerblam.KerblamItem@7a00446, com.swdteam.common.kerblam.KerblamItem@50f77755, com.swdteam.common.kerblam.KerblamItem@7590b28f, com.swdteam.common.kerblam.KerblamItem@6cb0ab1e]
+[22Nov2023 01:18:55.120] [Render thread/ERROR] [net.minecraft.world.biome.BiomeGenerationSettings/]: Feature: Not a JSON object: "dalekmod:classic_sand_patch"; Not a JSON object: "dalekmod:classic_lake"
+[22Nov2023 01:18:55.305] [Render thread/ERROR] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod chameleonaddon which appears to be missing, things may not work well
+[22Nov2023 01:18:55.310] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[22Nov2023 01:18:55.316] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Found a missing id from the world chameleonaddon:cloaking_panel
+[22Nov2023 01:18:55.324] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Found a missing id from the world chameleonaddon:cloaking_panel
+[22Nov2023 01:18:55.339] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	chameleonaddon:cloaking_panel: 763
+
+[22Nov2023 01:18:55.339] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	chameleonaddon:cloaking_panel: 1641
+
+[22Nov2023 01:18:55.340] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 2 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[22Nov2023 01:18:55.340] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:item:
+    chameleonaddon:cloaking_panel
+
+Missing minecraft:block:
+    chameleonaddon:cloaking_panel
+
+
+[22Nov2023 01:18:55.340] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[22Nov2023 01:18:55.341] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: cloak:cloaking_panel Expected: 763 Got: 1241
+[22Nov2023 01:18:56.187] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:chameleonaddon
+[22Nov2023 01:18:56.193] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Nov2023 01:18:56.194] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Nov2023 01:18:56.195] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Nov2023 01:18:56.196] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Nov2023 01:18:56.197] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Nov2023 01:18:56.197] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.39_mapped_official_1.16.5-recomp.jar, the-dalek-mod-59654-4706185_mapped_official_1.16.5.jar, main
+[22Nov2023 01:18:57.877] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 9 recipes
+[22Nov2023 01:18:58.879] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1308 advancements
+[22Nov2023 01:18:58.880] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:copper
+[22Nov2023 01:18:58.880] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:blockstack_default
+[22Nov2023 01:18:58.880] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:booth_default
+[22Nov2023 01:18:58.880] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:template
+[22Nov2023 01:18:58.880] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:classic
+[22Nov2023 01:18:58.880] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:crystaline
+[22Nov2023 01:18:58.880] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:third
+[22Nov2023 01:18:58.880] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:pagoda_default
+[22Nov2023 01:18:58.880] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:tardis_default
+[22Nov2023 01:18:58.881] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:war
+[22Nov2023 01:18:58.881] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:hudolin
+[22Nov2023 01:18:58.881] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.tardis.datapack.InteriorReloadListener:apply:36]: dalekmod:sidrat_default
+[22Nov2023 01:18:58.882] [Render thread/INFO] [STDOUT/]: [com.swdteam.common.kerblam.KerblamItemReloadListener:apply:51]: [com.swdteam.common.kerblam.KerblamItem@3108f0a3, com.swdteam.common.kerblam.KerblamItem@17240340, com.swdteam.common.kerblam.KerblamItem@5e24661a, com.swdteam.common.kerblam.KerblamItem@6270dc48, com.swdteam.common.kerblam.KerblamItem@140bb54d, com.swdteam.common.kerblam.KerblamItem@23829a8f, com.swdteam.common.kerblam.KerblamItem@5eeb3c53, com.swdteam.common.kerblam.KerblamItem@3a9d395a, com.swdteam.common.kerblam.KerblamItem@73f55299, com.swdteam.common.kerblam.KerblamItem@4494e88a, com.swdteam.common.kerblam.KerblamItem@439a4def, com.swdteam.common.kerblam.KerblamItem@109efb2f, com.swdteam.common.kerblam.KerblamItem@4926023f, com.swdteam.common.kerblam.KerblamItem@2a157329, com.swdteam.common.kerblam.KerblamItem@3b71b6b1, com.swdteam.common.kerblam.KerblamItem@5cd16573, com.swdteam.common.kerblam.KerblamItem@251fa32c, com.swdteam.common.kerblam.KerblamItem@2412009d, com.swdteam.common.kerblam.KerblamItem@12e0fe90, com.swdteam.common.kerblam.KerblamItem@45cdfb42, com.swdteam.common.kerblam.KerblamItem@1d932614, com.swdteam.common.kerblam.KerblamItem@2931cbd3, com.swdteam.common.kerblam.KerblamItem@3c30a41b, com.swdteam.common.kerblam.KerblamItem@168d5f34, com.swdteam.common.kerblam.KerblamItem@122a6877, com.swdteam.common.kerblam.KerblamItem@35e246b2, com.swdteam.common.kerblam.KerblamItem@c4b2c69, com.swdteam.common.kerblam.KerblamItem@70c3b62b, com.swdteam.common.kerblam.KerblamItem@316b0194, com.swdteam.common.kerblam.KerblamItem@169b16dd, com.swdteam.common.kerblam.KerblamItem@43664803, com.swdteam.common.kerblam.KerblamItem@2e79dcaa, com.swdteam.common.kerblam.KerblamItem@47f71f50, com.swdteam.common.kerblam.KerblamItem@994d48d, com.swdteam.common.kerblam.KerblamItem@78c3b3ec, com.swdteam.common.kerblam.KerblamItem@18bfbcd2, com.swdteam.common.kerblam.KerblamItem@67cd2d0a, com.swdteam.common.kerblam.KerblamItem@48d2adc2, com.swdteam.common.kerblam.KerblamItem@2d6b2be7, com.swdteam.common.kerblam.KerblamItem@48d74bb4, com.swdteam.common.kerblam.KerblamItem@467c9ad9, com.swdteam.common.kerblam.KerblamItem@1b1d9369, com.swdteam.common.kerblam.KerblamItem@6fdda7fe, com.swdteam.common.kerblam.KerblamItem@1da5cb5a, com.swdteam.common.kerblam.KerblamItem@3fad2065, com.swdteam.common.kerblam.KerblamItem@485c7a22, com.swdteam.common.kerblam.KerblamItem@4a3cc680, com.swdteam.common.kerblam.KerblamItem@79703b86, com.swdteam.common.kerblam.KerblamItem@2f8892c5, com.swdteam.common.kerblam.KerblamItem@4ae707c]
+[22Nov2023 01:18:58.932] [Render thread/ERROR] [net.minecraft.world.biome.BiomeGenerationSettings/]: Feature: Not a JSON object: "dalekmod:classic_sand_patch"; Not a JSON object: "dalekmod:classic_lake"
+[22Nov2023 01:18:59.142] [Render thread/ERROR] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod chameleonaddon which appears to be missing, things may not work well
+[22Nov2023 01:18:59.145] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[22Nov2023 01:18:59.149] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Skipping injection of dummied object chameleonaddon:cloaking_panel
+[22Nov2023 01:18:59.154] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Found a missing id from the world chameleonaddon:cloaking_panel
+[22Nov2023 01:18:59.166] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	chameleonaddon:cloaking_panel: 1641
+
+[22Nov2023 01:18:59.166] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 1 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[22Nov2023 01:18:59.166] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:item:
+    chameleonaddon:cloaking_panel
+
+
+[22Nov2023 01:18:59.166] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[22Nov2023 01:19:00.904] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Nov2023 01:19:00.975] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.5
+[22Nov2023 01:19:00.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Nov2023 01:19:01.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Nov2023 01:19:02.679] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Nov2023 01:19:02.679] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Nov2023 01:19:02.679] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Nov2023 01:19:02.880] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Nov2023 01:19:03.183] [Server thread/INFO] [tk.jacobempire.cloakpaneladdon.CloakPanelAddon/]: HELLO from server starting
+[22Nov2023 01:19:03.214] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1835 ms
+[22Nov2023 01:19:03.512] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[22Nov2023 01:19:05.863] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[22Nov2023 01:19:05.976] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what chameleonaddon:cloaking_panel is
+[22Nov2023 01:19:05.995] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1a801679
+[22Nov2023 01:19:06.018] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:93542a30] logged in with entity id 112 at (8.00762291737468, 70.0, 19.707756209737042)
+[22Nov2023 01:19:06.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[22Nov2023 01:19:06.184] [Server thread/INFO] [STDOUT/]: [com.swdteam.common.event.EventHandlerGeneral:onPlayerLogin:143]: Syncing reg for: TextComponent{text='Dev', siblings=[], style=Style{ color=null, bold=null, italic=null, underlined=null, strikethrough=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null, font=minecraft:default}}
+[22Nov2023 01:19:06.342] [Render thread/INFO] [STDOUT/]: [com.swdteam.client.init.BusClientEvents:clearCache:547]: Cleared client TARDIS cache
+[22Nov2023 01:19:06.356] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:19:06.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:19:06.678] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 39 advancements
+[22Nov2023 01:19:06.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:19:06.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:19:06.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:19:06.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:19:06.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:19:06.890] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:19:06.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:19:06.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:19:12.119] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:19:12.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:19:12.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:19:12.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:19:12.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:19:12.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:19:12.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:19:12.209] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:19:12.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:19:12.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:19:24.333] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:19:24.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:19:24.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:19:24.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:19:24.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:19:24.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:19:24.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:19:24.394] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:19:24.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:19:24.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:19:28.122] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:19:28.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:19:28.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:19:28.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:19:28.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:19:28.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:19:28.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:19:28.218] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:19:28.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:19:28.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:19:30.964] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:19:30.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:19:30.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:19:31.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:19:31.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:19:31.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:19:31.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:19:31.004] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:19:31.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:19:31.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:19:37.220] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:19:37.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:19:37.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:19:37.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:19:37.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:19:37.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:19:37.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:19:37.322] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:19:37.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:19:37.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:19:42.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Not Just a Capsule]
+[22Nov2023 01:19:42.488] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [Not Just a Capsule]
+[22Nov2023 01:19:42.513] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 39 advancements
+[22Nov2023 01:19:48.661] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:19:48.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:19:48.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:19:48.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:19:48.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:19:48.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:19:48.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:19:48.699] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:19:48.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:19:48.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:19:55.513] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:19:55.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:19:55.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:19:55.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:19:55.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:19:55.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:19:55.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:19:55.594] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:19:55.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:19:55.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:20:00.758] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:20:00.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:20:00.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:20:00.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:20:00.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:20:00.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:20:00.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:20:00.801] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:20:00.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:20:00.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:20:15.466] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:20:15.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:20:15.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:20:15.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:20:15.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:20:15.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:20:15.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:20:15.542] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:20:15.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:20:15.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:20:19.058] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:20:19.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:20:19.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:20:19.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:20:19.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:20:19.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:20:19.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:20:19.095] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:20:19.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:20:19.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:20:21.829] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:20:21.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:20:21.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:20:21.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:20:21.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:20:21.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:20:21.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:20:21.898] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:20:21.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:20:21.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:20:25.660] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:20:25.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:20:25.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:20:25.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:20:25.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:20:25.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:20:25.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:20:25.698] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:20:25.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:20:25.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:20:27.692] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:20:27.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:20:27.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:20:27.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:20:27.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:20:27.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:20:27.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:20:27.770] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:20:27.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:20:27.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:20:35.956] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:20:35.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:20:35.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:20:35.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:20:35.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:20:35.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:20:35.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:20:35.995] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:20:36.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:20:36.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:21:20.955] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[22Nov2023 01:21:20.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:21:21.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:21:21.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:21:21.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:21:21.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:21:21.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:21:21.015] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:21:21.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:21:21.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:21:22.310] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[22Nov2023 01:21:22.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[22Nov2023 01:21:22.318] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[22Nov2023 01:21:22.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Nov2023 01:21:22.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Nov2023 01:21:22.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Nov2023 01:21:22.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Nov2023 01:21:22.935] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[22Nov2023 01:21:22.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Nov2023 01:21:22.937] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Nov2023 01:21:22.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Nov2023 01:21:22.938] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Nov2023 01:21:22.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_infdev
+[22Nov2023 01:21:22.939] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (minecraft_infdev): All chunks are saved
+[22Nov2023 01:21:22.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:skaro
+[22Nov2023 01:21:22.939] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skaro): All chunks are saved
+[22Nov2023 01:21:22.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:tardis
+[22Nov2023 01:21:22.940] [Server thread/INFO] [STDOUT/]: [com.swdteam.main.DalekMod:onSave:281]: Saved TARDIS Data Pool
+[22Nov2023 01:21:23.016] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (tardis): All chunks are saved
+[22Nov2023 01:21:23.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:cave_game
+[22Nov2023 01:21:23.017] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (cave_game): All chunks are saved
+[22Nov2023 01:21:23.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/dalekmod:minecraft_classic
+[22Nov2023 01:21:23.018] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (minecraft_classic): All chunks are saved
+[22Nov2023 01:21:23.050] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[22Nov2023 01:21:23.075] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Nov2023 01:21:23.075] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Nov2023 01:21:23.075] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (minecraft_infdev): All chunks are saved
+[22Nov2023 01:21:23.076] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skaro): All chunks are saved
+[22Nov2023 01:21:23.083] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (tardis): All chunks are saved
+[22Nov2023 01:21:23.108] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (cave_game): All chunks are saved
+[22Nov2023 01:21:23.109] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (minecraft_classic): All chunks are saved
+[22Nov2023 01:21:26.390] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

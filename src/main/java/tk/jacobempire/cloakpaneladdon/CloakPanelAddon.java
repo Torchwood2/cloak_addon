@@ -1,4 +1,4 @@
-package tk.jacobempire.chameleonaddon;
+package tk.jacobempire.cloakpaneladdon;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -6,30 +6,25 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.stream.Collectors;
+import static tk.jacobempire.cloakpaneladdon.init.Blocks.BLOCKS;
+import static tk.jacobempire.cloakpaneladdon.init.Items.ITEMS;
 
-import static tk.jacobempire.chameleonaddon.init.Blocks.BLOCKS;
-import static tk.jacobempire.chameleonaddon.init.Items.ITEMS;
-
-@Mod("chameleonaddon")
-public class Chameleonaddon {
+@Mod("cloak")
+public class CloakPanelAddon {
 
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MODID = "chameleonaddon";
+    public static final String MODID = "cloak";
 
-    public Chameleonaddon() {
+    public CloakPanelAddon() {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
         modEventBus.addListener(this::doClientStuff);
