@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "CRC",
+    "SSS"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "C": {
+      "item": "dalekmod:circuit"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "cloak:cloaking_panel",
+    "count": 1
+  }
+}
