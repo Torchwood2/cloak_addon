@@ -30,12 +30,12 @@ public abstract class TardisTileEntityMixin extends ExtraRotationTileEntityBase 
         super(tileEntityTypeIn);
     }
 
-    @Inject(at=@At("HEAD"), method = "save", remap = false)
+    @Inject(at=@At("HEAD"), method = "save", remap = true)
     public void save(CompoundNBT compound, CallbackInfoReturnable<CompoundNBT> cir){
         compound.putBoolean("Invisible", invisible);
     }
 
-    @Inject(at=@At("HEAD"), method = "load", remap = false)
+    @Inject(at=@At("HEAD"), method = "load", remap = true)
     public void load(BlockState blockstate, CompoundNBT compound, CallbackInfo ci){
         if (compound.contains("Invisible")) {
             invisible = compound.getBoolean("Invisible");

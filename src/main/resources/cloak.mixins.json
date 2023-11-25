@@ -3,7 +3,7 @@
   "minVersion": "0.8",
   "package": "tk.jacobempire.cloakpaneladdon.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "cloakpaneladdon.refmap.json",
+  "refmap": "cloak.refmap.json",
   "mixins": [
     "TardisTileEntityMixin"
   ],
