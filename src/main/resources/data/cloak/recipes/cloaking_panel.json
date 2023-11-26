@@ -10,7 +10,7 @@
       "item": "minecraft:redstone_lamp"
     },
     "C": {
-      "item": "dalekmod:circuit"
+      "tag":"forge:circuits/basic"
     },
     "S": {
       "item": "minecraft:stone"
