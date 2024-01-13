@@ -9,17 +9,19 @@ import net.minecraft.entity.passive.ChickenEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.world.World;
+import tk.jacobempire.cloakpaneladdon.entity.TardisShieldEntity;
+import tk.jacobempire.cloakpaneladdon.init.Entities;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class TardisShieldManager {
-    private Entity shield;
+    private TardisShieldEntity shield;
     public Location location;
 
     // called when hasShield is set to true
     public void createShield(World level, BlockPos position){
-        Entity shieldEntity = new ArmorStandEntity(EntityType.ARMOR_STAND, level);
+        TardisShieldEntity shieldEntity = new TardisShieldEntity(Entities.TARDIS_SHIELD_ENTITY.get(), level);
         shieldEntity.setNoGravity(true);
         shieldEntity.moveTo(position.getX()+0.5, position.getY()+2, position.getZ()+0.5);
         level.addFreshEntity(shieldEntity);

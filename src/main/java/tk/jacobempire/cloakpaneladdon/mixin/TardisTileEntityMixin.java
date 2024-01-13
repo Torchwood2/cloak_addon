@@ -71,7 +71,7 @@ public abstract class TardisTileEntityMixin extends ExtraRotationTileEntityBase 
             invisible = compound.getBoolean("Invisible");
         }
         if (compound.contains("HasShield")){
-            hasShield = compound.getBoolean("HasShield");
+            setHasShield(compound.getBoolean("HasShield"));
             // if it has a shield - raytrace upwards to find it
         }
     }

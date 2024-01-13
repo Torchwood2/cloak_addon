@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "cloak:entity/tardis_shield",
+	"texture_width": 32,
+	"texture_height": 32,
+	"scale": 1,
+	"groups": [
+		{
+			"pivot": [0,24,0],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,0],
+					"size": [6,6,6],
+					"origin": [-3,-11,-3],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		}
+	]
+}
