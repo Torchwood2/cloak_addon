@@ -8,12 +8,19 @@ import com.swdteam.common.tardis.TardisState;
 import com.swdteam.common.tileentity.ExtraRotationTileEntityBase;
 import com.swdteam.common.tileentity.TardisTileEntity;
 import net.minecraft.block.BlockState;
+import net.minecraft.client.Minecraft;
+import net.minecraft.entity.EntityPredicate;
+import net.minecraft.entity.item.ArmorStandEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.fluid.Fluids;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.tileentity.ITickableTileEntity;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
+import net.minecraft.util.math.RayTraceContext;
+import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.util.math.vector.Vector3d;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
@@ -64,7 +71,8 @@ public abstract class TardisTileEntityMixin extends ExtraRotationTileEntityBase 
             invisible = compound.getBoolean("Invisible");
         }
         if (compound.contains("HasShield")){
-            setHasShield(compound.getBoolean("HasShield"));
+            hasShield = compound.getBoolean("HasShield");
+            // if it has a shield - raytrace upwards to find it
         }
     }
 }

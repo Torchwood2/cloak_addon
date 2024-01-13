@@ -1,0 +1,13 @@
+{
+    "variants": {
+      "enabled=true,facing=north": { "model": "cloak:block/shield_panel_active", "y": 0},
+      "enabled=true,facing=south": { "model": "cloak:block/shield_panel_active", "y": 180},
+      "enabled=true,facing=west": { "model": "cloak:block/shield_panel_active", "y": 270},
+      "enabled=true,facing=east": { "model": "cloak:block/shield_panel_active", "y": 90},
+
+      "enabled=false,facing=north": { "model": "cloak:block/shield_panel", "y": 0},
+      "enabled=false,facing=south": { "model": "cloak:block/shield_panel", "y": 180},
+      "enabled=false,facing=west": { "model": "cloak:block/shield_panel", "y": 270},
+      "enabled=false,facing=east": { "model": "cloak:block/shield_panel", "y": 90}
+    }
+}

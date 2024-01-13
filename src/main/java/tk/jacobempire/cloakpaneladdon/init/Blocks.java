@@ -12,6 +12,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import tk.jacobempire.cloakpaneladdon.block.CloakingPanelBlock;
+import tk.jacobempire.cloakpaneladdon.block.ShieldPanelBlock;
 
 import java.util.function.Supplier;
 
@@ -50,4 +51,8 @@ public class Blocks {
     public static RegistryObject<Block> CLOAKING_PANEL = registerBlock(() ->
             new CloakingPanelBlock(AbstractBlock.Properties.of(Material.STONE).strength(6.25F, 5.75F).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)),
             "cloaking_panel", ItemGroup.TAB_BUILDING_BLOCKS);
+
+    public static RegistryObject<Block> SHIELD_PANEL = registerBlock(() ->
+                    new ShieldPanelBlock(AbstractBlock.Properties.of(Material.STONE).strength(6.25F, 5.75F).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)),
+            "shield_panel", ItemGroup.TAB_BUILDING_BLOCKS);
 }
