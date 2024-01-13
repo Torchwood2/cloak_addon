@@ -62,8 +62,8 @@ public class CloakingPanelBlock extends AbstractRotateableWaterLoggableBlock {
                 TileEntity tile = serverWorld.getBlockEntity(location.getPosition().toBlockPos());
                 if (tile instanceof TardisTileEntity) {
                     ITardisTileEntityMixin iTardisTileEntityMixin = (ITardisTileEntityMixin) tile;
-                    ITardisTileEntityMixin.setInvisible(!iTardisTileEntityMixin.isInvisible());
-                    ITardisTileEntityMixin.setHasShield(!iTardisTileEntityMixin.hasShield());
+                    iTardisTileEntityMixin.setInvisible(!iTardisTileEntityMixin.isInvisible());
+                    iTardisTileEntityMixin.setHasShield(!iTardisTileEntityMixin.hasShield());
                     ChatUtil.sendCompletedMsg(playerEntity, String.format("Invisible : %b", iTardisTileEntityMixin.isInvisible()), ChatUtil.MessageType.STATUS_BAR);
                 }
             }

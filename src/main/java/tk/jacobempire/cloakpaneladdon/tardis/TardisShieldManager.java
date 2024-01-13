@@ -17,13 +17,16 @@ public class TardisShieldManager {
     private Entity shield;
     public Location location;
 
+    // called when hasShield is set to true
     public void createShield(World level, BlockPos position){
-        Entity shieldEntity = new ChickenEntity(EntityType.CHICKEN, level);
-        shieldEntity.moveTo(position.getX(), position.getY(), position.getZ());
+        Entity shieldEntity = new ArmorStandEntity(EntityType.ARMOR_STAND, level);
+        shieldEntity.setNoGravity(true);
+        shieldEntity.moveTo(position.getX()+0.5, position.getY()+2, position.getZ()+0.5);
         level.addFreshEntity(shieldEntity);
         shield = shieldEntity;
     }
 
+    // called when hasShield is set ot false
     public void removeShield(){
         if(shield != null){
             shield.remove();
