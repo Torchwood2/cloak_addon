@@ -14,6 +14,6 @@ import tk.jacobempire.cloakpaneladdon.entity.TardisShieldEntity;
 public class Entities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES, CloakPanelAddon.MODID);
     public static final RegistryObject<EntityType<TardisShieldEntity>> TARDIS_SHIELD_ENTITY = ENTITY_TYPES.register("tardis_shield",
-            () -> EntityType.Builder.of(TardisShieldEntity::new, EntityClassification.MONSTER).sized(1f, 1f)
+            () -> EntityType.Builder.of(TardisShieldEntity::new, EntityClassification.MONSTER).sized(2f, 3f)
                     .build((new ResourceLocation(CloakPanelAddon.MODID, "tardis_shield").toString())));
 }

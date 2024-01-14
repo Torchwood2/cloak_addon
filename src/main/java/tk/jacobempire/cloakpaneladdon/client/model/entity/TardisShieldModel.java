@@ -26,6 +26,7 @@ public class TardisShieldModel extends SegmentedModel<TardisShieldEntity> implem
     }
 
     public JSONModel model;
+    protected ModelRenderer shield;
 
     @Override
     public JSONModel getModel() {
@@ -35,10 +36,11 @@ public class TardisShieldModel extends SegmentedModel<TardisShieldEntity> implem
     public void init() {
         this.model = ModelLoader.loadModel(new ResourceLocation(CloakPanelAddon.MODID, "models/entity/tardis_shield.json"));
         ModelWrapper modelWrapper = this.model.getModelData().getModel();
+        this.shield = modelWrapper.getPart("shield");
     }
     @Override
     public Iterable<ModelRenderer> parts() {
-        return ImmutableList.of();
+        return ImmutableList.of(shield);
     }
     @Override
     public void setupAnim(TardisShieldEntity p_225597_1_, float p_225597_2_, float p_225597_3_, float p_225597_4_, float p_225597_5_, float p_225597_6_) {
