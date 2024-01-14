@@ -25,7 +25,7 @@ import static tk.jacobempire.cloakpaneladdon.init.Entities.ENTITY_TYPES;
 public class CloakPanelAddon {
 
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
     public static final String MODID = "cloak";
 
     public CloakPanelAddon() {

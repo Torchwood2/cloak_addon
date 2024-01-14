@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"texture": "cloak:entity/tardis_shield",
-	"texture_width": 128,
-	"texture_height": 128,
+	"texture_width": 256,
+	"texture_height": 256,
 	"scale": 1,
 	"groups": [
 		{
@@ -12,8 +12,8 @@
 			"cubes": [
 				{
 					"uv": [0,0],
-					"size": [32,48,32],
-					"origin": [-16,-48,-16],
+					"size": [64,64,64],
+					"origin": [-32,-64,-32],
 					"inflate": 0,
 					"mirror": false
 				}

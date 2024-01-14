@@ -24,7 +24,8 @@ public class TardisShieldManager {
         TardisShieldEntity shieldEntity = new TardisShieldEntity(Entities.TARDIS_SHIELD_ENTITY.get(), level);
         shieldEntity.setNoGravity(true);
         shieldEntity.setInvulnerable(true);
-        shieldEntity.moveTo(position.getX()+0.5, position.getY()+2, position.getZ()+0.5);
+        shieldEntity.setNoAi(true);
+        shieldEntity.moveTo(position.getX()+0.5, position.getY()-1, position.getZ()+0.5);
         level.addFreshEntity(shieldEntity);
         shield = shieldEntity;
     }

@@ -9,7 +9,10 @@ import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.item.ArmorStandEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.util.DamageSource;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import tk.jacobempire.cloakpaneladdon.CloakPanelAddon;
 import tk.jacobempire.cloakpaneladdon.init.Entities;
 
 public class TardisShieldEntity extends MobEntity {
@@ -25,5 +28,10 @@ public class TardisShieldEntity extends MobEntity {
     @Override
     public void load(CompoundNBT p_70020_1_) {
         remove();
+    }
+
+    @Override
+    public boolean isOnPortalCooldown() {
+        return true;
     }
 }
