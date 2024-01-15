@@ -39,6 +39,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
+import tk.jacobempire.cloakpaneladdon.CloakPanelAddon;
 import tk.jacobempire.cloakpaneladdon.data.ITardisTileEntityMixin;
 import tk.jacobempire.cloakpaneladdon.entity.TardisShieldEntity;
 import tk.jacobempire.cloakpaneladdon.init.Entities;
@@ -95,20 +96,25 @@ public abstract class TardisTileEntityMixin extends ExtraRotationTileEntityBase 
         super(tileEntityTypeIn);
     }
 
-    @Inject(at=@At("HEAD"), method = "save", remap = true)
+    @Inject(at=@At("RETURN"), method = "save", remap = true, cancellable = true)
     public void save(CompoundNBT compound, CallbackInfoReturnable<CompoundNBT> cir){
-        compound.putBoolean("Invisible", invisible);
-        compound.putBoolean("HasShield", hasShield);
+        CloakPanelAddon.LOGGER.info("SAVE THE TARDIS");
+        CompoundNBT returnCompound = cir.getReturnValue();
+        returnCompound.putBoolean("IsInvisible", isInvisible());
+        returnCompound.putBoolean("HasShield", hasShield());
+        cir.setReturnValue(returnCompound);
     }
 
     @Inject(at=@At("HEAD"), method = "load", remap = true)
     public void load(BlockState blockstate, CompoundNBT compound, CallbackInfo ci){
-        if (compound.contains("Invisible")) {
-            invisible = compound.getBoolean("Invisible");
+        CloakPanelAddon.LOGGER.info("LOAD THE TARDIS");
+        if (compound.contains("IsInvisible")) {
+            CloakPanelAddon.LOGGER.info(compound.getBoolean("IsInvisible"));
+            invisible = compound.getBoolean("IsInvisible");
         }
         if (compound.contains("HasShield")){
-            setHasShield(compound.getBoolean("HasShield"));
-            // if it has a shield - raytrace upwards to find it
+            CloakPanelAddon.LOGGER.info(compound.getBoolean("HasShield"));
+            hasShield = compound.getBoolean("HasShield");
         }
     }
 
@@ -117,6 +123,9 @@ public abstract class TardisTileEntityMixin extends ExtraRotationTileEntityBase 
         ci.cancel();
         if (this.level.isClientSide && this.level.random.nextInt(100) == 50) {
             this.snowCheck();
+        }
+        if(!this.level.isClientSide && hasShield && !shieldManager.shieldExists()){
+            shieldManager.createShield(this.getLevel(), this.getBlockPos());
         }
 
         this.doorAnimation();

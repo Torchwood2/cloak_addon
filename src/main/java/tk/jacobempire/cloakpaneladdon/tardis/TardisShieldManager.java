@@ -37,4 +37,8 @@ public class TardisShieldManager {
             shield = null;
         }
     }
+
+    public boolean shieldExists(){
+        return shield != null;
+    }
 }
