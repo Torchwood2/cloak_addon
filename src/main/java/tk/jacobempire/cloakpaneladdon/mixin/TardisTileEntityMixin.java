@@ -96,24 +96,18 @@ public abstract class TardisTileEntityMixin extends ExtraRotationTileEntityBase 
         super(tileEntityTypeIn);
     }
 
-    @Inject(at=@At("RETURN"), method = "save", remap = true, cancellable = true)
+    @Inject(at=@At("HEAD"), method = "save", remap = true)
     public void save(CompoundNBT compound, CallbackInfoReturnable<CompoundNBT> cir){
-        CloakPanelAddon.LOGGER.info("SAVE THE TARDIS");
-        CompoundNBT returnCompound = cir.getReturnValue();
-        returnCompound.putBoolean("IsInvisible", isInvisible());
-        returnCompound.putBoolean("HasShield", hasShield());
-        cir.setReturnValue(returnCompound);
+        compound.putBoolean("IsInvisible", isInvisible());
+        compound.putBoolean("HasShield", hasShield());
     }
 
     @Inject(at=@At("HEAD"), method = "load", remap = true)
     public void load(BlockState blockstate, CompoundNBT compound, CallbackInfo ci){
-        CloakPanelAddon.LOGGER.info("LOAD THE TARDIS");
         if (compound.contains("IsInvisible")) {
-            CloakPanelAddon.LOGGER.info(compound.getBoolean("IsInvisible"));
             invisible = compound.getBoolean("IsInvisible");
         }
         if (compound.contains("HasShield")){
-            CloakPanelAddon.LOGGER.info(compound.getBoolean("HasShield"));
             hasShield = compound.getBoolean("HasShield");
         }
     }
