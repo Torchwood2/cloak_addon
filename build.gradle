@@ -102,7 +102,7 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    implementation fg.deobf("curse.maven:the-dalek-mod-59654:5198424")
+    implementation fg.deobf("curse.maven:the-dalek-mod-59654:5954895")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }

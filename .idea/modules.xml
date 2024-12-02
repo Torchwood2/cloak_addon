@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1.0.cloak.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1.0.cloak.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1.0.cloak.test.iml" filepath="$PROJECT_DIR$/.idea/modules/1.0.cloak.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chamelonaddon_invisibility.cloak.test.iml" filepath="$PROJECT_DIR$/.idea/modules/chamelonaddon_invisibility.cloak.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloak.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloak.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloak.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloak.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloak.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/cloak.test~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mod workspaces.chamelonaddon_invisibility.cloak.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mod workspaces.chamelonaddon_invisibility.cloak.test.iml" />
     </modules>
   </component>
 </project>
